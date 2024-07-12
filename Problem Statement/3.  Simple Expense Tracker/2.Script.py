@@ -1,4 +1,4 @@
-Sure! Here is a Python script for a simple expense tracker application based on the problem statement:
+simple expense tracker application based on the problem statement:
 
 ```python
 def display_menu():
