@@ -1,6 +1,3 @@
-Python Script:
-python
-Copy code
 def display_menu():
     print("\nWelcome to the Grocery List Manager!")
     print("Please choose an option:")
@@ -93,6 +90,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
 Explanation:
 display_menu(): Prints the menu options to the screen.
 add_item(grocery_list): Prompts the user to enter the item's name and quantity, and adds the item to the grocery_list. It uses try and except to handle invalid quantity inputs.
