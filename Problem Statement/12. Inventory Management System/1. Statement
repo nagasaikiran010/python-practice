@@ -1,0 +1,94 @@
+Problem Statement: Inventory Management System
+Objective: Create a Python script to manage an inventory system for a store. The script should allow the user to add, view, update, and delete items. Additionally, it should allow searching items, checking stock levels, and generating reports. The script should handle errors gracefully and use functions to organize the code.
+
+Requirements:
+Menu Options:
+
+Display a menu to the user with options to:
+Add an item
+View all items
+Update an item
+Delete an item
+Search for an item by name
+Check stock level of an item
+Generate a report of all items
+Exit the application
+Add an Item:
+
+Prompt the user to enter the item name, quantity, and price.
+Save the item in a dictionary, where the item name is the key and a tuple (quantity, price) is the value.
+View All Items:
+
+Display all items with their names, quantities, and prices.
+Update an Item:
+
+Prompt the user to enter the item name.
+Allow the user to update either the quantity or the price of the item.
+Delete an Item:
+
+Prompt the user to enter the item name to delete.
+Remove the item from the dictionary.
+Search for an Item by Name:
+
+Prompt the user to enter a search term.
+Display the items that match the search term in their name.
+Check Stock Level of an Item:
+
+Prompt the user to enter the item name.
+Display the quantity in stock for that item.
+Generate a Report of All Items:
+
+Display a sorted list of all items with their names, quantities, and prices.
+Error Handling:
+
+Handle errors such as entering a non-numeric quantity or price, or providing an invalid item name.
+Provide user-friendly error messages.
+Functions:
+
+Use functions to handle each menu option and other repetitive tasks.
+Define variables and manage scope appropriately.
+Example Interaction:
+markdown
+Copy code
+Welcome to the Inventory Management System!
+Please choose an option:
+1. Add an item
+2. View all items
+3. Update an item
+4. Delete an item
+5. Search for an item by name
+6. Check stock level of an item
+7. Generate a report of all items
+8. Exit
+
+Enter your choice: 1
+Enter the item's name: Apple
+Enter the item's quantity: 50
+Enter the item's price: 0.5
+Item added successfully!
+
+Please choose an option:
+1. Add an item
+2. View all items
+3. Update an item
+4. Delete an item
+5. Search for an item by name
+6. Check stock level of an item
+7. Generate a report of all items
+8. Exit
+
+Enter your choice: 2
+Inventory List:
+1. Name: Apple, Quantity: 50, Price: 0.5
+
+Please choose an option:
+...
+Guidelines:
+Use a loop to repeatedly display the menu until the user chooses to exit.
+Use a dictionary to store the inventory items, with each item represented as a tuple (quantity, price).
+Use input() to capture user input.
+Use conditional statements (if, elif, else) to handle menu options.
+Use try and except to handle potential errors, such as invalid input.
+Use list comprehensions where appropriate to make the code more concise and readable.
+Use tuples for item data and sets for storing unique item names.
+Define and use functions for each main feature to keep the code organized and readable.
